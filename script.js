@@ -47,8 +47,9 @@ function searchHistory() {
         pastCity.textContent = callStorage()[i];
         pastCity.value = callStorage()[i];
         pastCity.classList.add('searched-city');
-        searchedCities.appendChild(pastCity);
-
+        console.log(pastCity.value);
+        console.log(searchedCities);
+        searchedCities.innerHTML = pastCity.value;
         pastCity.addEventListener('click', function(e) {
             getWeather(e.target.value);
         });
