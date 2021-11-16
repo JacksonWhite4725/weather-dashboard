@@ -66,4 +66,39 @@ header > h1 {
 .five-day {
     height: 50%;
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.forecast-card {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.date {
+    font-size: 30px;
+    margin: 10px 5px;
+}
+
+.temp {
+    font-size: 25px;
+    margin: 10px 5px;
+}
+
+.icon {
+    font-size: 25px;
+    margin: 10px 5px;
+}
+
+.wind {
+    font-size: 25px;
+    margin: 10px 5px;
+}
+
+.humidity {
+    font-size: 25px;
+    margin: 10px 5px;
 }
