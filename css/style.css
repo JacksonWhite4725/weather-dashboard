@@ -1,0 +1,57 @@
+header {
+    background-image: linear-gradient(to bottom right, blue, purple);
+    color: white;
+}
+
+header > h1 {
+    font-size: 40px;
+    padding: 2vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+}
+
+.search {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search > h2 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.search > input {
+    font-size: 25px;
+    width: 95%;
+    margin: 10px;
+}
+
+.search > button {
+    font-size: 20px;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.results {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-result {
+    height: 50%;
+    background-color: blue;
+}
+
+.five-day {
+    height: 50%;
+    background-color: chartreuse;
+}

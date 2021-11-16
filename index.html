@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+    <header><h1>Weather Dashboard</h1></header>
+    <div class="main-content">
+        <div class="search">
+            <h2>Search for a City</h2>
+            <input type="text" placeholder="San Diego" id="city-search">
+            <button id="search-btn">Search</button>
+            <div class='searched-cities'></div>
+        </div>
+        <div class="results">
+            <div class="main-result">
+                <h3 id='city-name'></h3>
+                <h4 id='temp'>Temperature: </h4>
+                <h4 id='wind'>Wind: </h4>
+                <h4 id='humidity'>Humidity: </h4>
+                <h4 id='uv-index'>UV Index: </h4>
+            </div>
+            <div class="five-day">
+
+            </div>
+        </div>
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>
