@@ -78,27 +78,27 @@ function getWeather(city) {
         return response.json();
     })
     .then(city => {
-        dayOneDate.innerHTML = moment().add(i, 'days').format('M/D/YYYY');
+        //dayOneDate.innerHTML = moment().add(i, 'days').format('M/D/YYYY');
         dayOneTemp.innerHTML = `Temperature: ${city.list[0].main.temp} F`;
         dayOneWind.innerHTML = `Wind Speed: ${city.list[0].wind.speed} mph`;
         dayOneHumidity.innerHTML = `Humidity: ${city.list[0].main.humidity} %`;
 
-        dayTwoDate.innerHTML = moment().add(2, 'days').format('M/D/YYYY');
+        //dayTwoDate.innerHTML = moment().add(2, 'days').format('M/D/YYYY');
         dayTwoTemp.innerHTML = `Temperature: ${city.list[8].main.temp} F`;
         dayTwoWind.innerHTML = `Wind Speed: ${city.list[8].wind.speed} mph`;
         dayTwoHumidity.innerHTML = `Humidity: ${city.list[8].main.humidity} %`;
         
-        dayThreeDate.innerHTML = moment().add(3, 'days').format('M/D/YYYY');
+        //dayThreeDate.innerHTML = moment().add(3, 'days').format('M/D/YYYY');
         dayThreeTemp.innerHTML = `Temperature: ${city.list[16].main.temp} F`;
         dayThreeWind.innerHTML = `Wind Speed: ${city.list[16].wind.speed} mph`;
         dayThreeHumidity.innerHTML = `Humidity: ${city.list[16].main.humidity} %`;
         
-        dayFourDate.innerHTML = moment().add(4, 'days').format('M/D/YYYY');
+        //dayFourDate.innerHTML = moment().add(4, 'days').format('M/D/YYYY');
         dayFourTemp.innerHTML = `Temperature: ${city.list[24].main.temp} F`;
         dayFourWind.innerHTML = `Wind Speed: ${city.list[24].wind.speed} mph`;
         dayFourHumidity.innerHTML = `Humidity: ${city.list[24].main.humidity} %`;
 
-        dayFiveDate.innerHTML = moment().add(5, 'days').format('M/D/YYYY');
+        //dayFiveDate.innerHTML = moment().add(5, 'days').format('M/D/YYYY');
         dayFiveTemp.innerHTML = `Temperature: ${city.list[32].main.temp} F`;
         dayFiveWind.innerHTML = `Wind Speed: ${city.list[32].wind.speed} mph`;
         dayFiveHumidity.innerHTML = `Humidity: ${city.list[32].main.humidity} %`;
